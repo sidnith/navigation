@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sidharth.navigationbar.MainActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/gridLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+      <GridLayout
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent">
+        <at.markushi.ui.CircleButton
+            android:layout_height="103dp"
+            android:layout_width="101dp"
+            app:cb_color="#6cecce"
+
+            android:src="@drawable/plumbing"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-80dp"
+            android:text="Plumbing"
+            android:textSize="15dp"/>
+        <at.markushi.ui.CircleButton
+            android:layout_height="103dp"
+            android:layout_width="101dp"
+            app:cb_color="#6cecce"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/plumbing"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-80dp"
+            android:text="Carpenter"
+            android:textSize="15dp"/>
+        <at.markushi.ui.CircleButton
+            android:layout_height="103dp"
+            android:layout_width="101dp"
+            app:cb_color="#6cecce"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/plumbing"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-80dp"
+            android:text="Driver Service"
+            android:textSize="15dp"/>
+      </GridLayout>
+        <GridLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="-380dp">
+        <at.markushi.ui.CircleButton
+            android:layout_height="103dp"
+            android:layout_width="101dp"
+            android:layout_marginTop="140dp"
+
+            app:cb_color="#6cecce"
+            android:src="@drawable/plumbing"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="240dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-80dp"
+            android:text="Painters"
+            android:textSize="15dp"/>
+
+        <at.markushi.ui.CircleButton
+            android:layout_height="103dp"
+            android:layout_width="101dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="50dp"
+            app:cb_color="#6cecce"
+            android:src="@drawable/plumbing"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="240dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-80dp"
+            android:text="Repairs    "
+            android:textSize="15dp"/>
+        <at.markushi.ui.CircleButton
+            android:layout_height="103dp"
+            android:layout_width="101dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginLeft="50dp"
+            app:cb_color="#6cecce"
+            android:src="@drawable/plumbing"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="240dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="-80dp"
+            android:text="Electrician"
+            android:textSize="15dp"/>
+        </GridLayout>
+
+    </GridLayout>
+
+
+
+</ScrollView>
